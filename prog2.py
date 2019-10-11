@@ -3,8 +3,8 @@ import math as m
 print("sin^2")
 T = float(input("Введите период"))
 state = 0 # 1 - период 0 - непериод
-step = T/30
-eps = T/1000
+step = T/30.0
+eps = T/1000.0
 
 
 
