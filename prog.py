@@ -1,6 +1,5 @@
 import math as m
 
-a,b = -5, 5
 step = 0.5
 state = 0 # 1 - нечет 2 - чет 0 - общ
 eps = 0.000005
@@ -18,7 +17,7 @@ while x<=5:
 		state = 1
 	else:
 		state = 0
-	x+=0.5
+	x+=step
 
 
 	
@@ -34,7 +33,7 @@ while x<=5:
 		state = 1
 	else:
 		state = 0
-	x+=0.5
+	x+=step
 
 
 	
@@ -50,7 +49,7 @@ while x<=5:
 		state = 1
 	else:
 		state = 0
-	x+=0.5
+	x+=step
 
 
 	
